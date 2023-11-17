@@ -28,7 +28,6 @@ def extract_spectra_data(file_path):
 
 # Directory where the .txt files are stored
 directory = os.getcwd()
-##'G:/Research/12-SPAN/50_IR-Raman_analysis/li6/raman'
 
 # Initialize a list to hold data from all files
 all_data = []
