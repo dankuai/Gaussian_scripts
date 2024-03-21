@@ -17,6 +17,7 @@ def create_com_files(path):
         # Prepare content for the .com file
         com_content = []
         com_content.append(f"%Chk={path}/{prefix}.chk\n")
+        # Don't forget to change the input keywords here
         com_content.append("#P opt freq b3lyp/aug-cc-pvtz empiricaldispersion=gd3 pop=full scf=(qc,maxcycle=512) gfinput gfprint\n")
         com_content.append("\n")  # Blank line
         com_content.append("Title Card Here\n")
